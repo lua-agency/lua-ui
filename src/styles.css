@@ -2,6 +2,27 @@
 @tailwind components;
 @tailwind utilities;
 
+<<<<<<< HEAD
+=======
+@layer base {
+	@font-face {
+		font-family: 'Manrope';
+		font-weight: 400;
+		src: url('fonts/Manrope-Regular.ttf') format('truetype');
+	}
+	@font-face {
+		font-family: 'Manrope';
+		font-weight: 500;
+		src: url('fonts/Manrope-Light.ttf') format('truetype');
+	}
+	@font-face {
+		font-family: 'Manrope';
+		font-weight: 600;
+		src: url('fonts/Manrope-Bold.ttf') format('truetype');
+	}
+}
+
+>>>>>>> 213bade (🚀 lua-ui setup)
 /* Apply basic global styles to the body: */
 body {
 	@apply bg-gray-100 dark:bg-gray-900 text-gray-900 dark:text-gray-100;
