@@ -1,6 +1,2 @@
-<<<<<<< HEAD
-node_modules
-=======
 node_modules/*
 .storybook
->>>>>>> 213bade (🚀 lua-ui setup)
